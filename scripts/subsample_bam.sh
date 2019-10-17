@@ -5,16 +5,16 @@
 #
 function subsample () {
   input=$1
-  seed=12345
 
-  num_reads=(100000)
-  for n in ${num_reads[@]}
+  chrs=(chr11 chr21)
+  for c in ${chrs[@]}
   do
-    output_file=${input%%.*}.${n}.fastq.gz
-    cmd="seqkit sample -n ${n} -s ${seed} -o ${output_file} ${input}"
+    output_file=${input%.*}.${c}.bam
+    cmd="samtools view -b ${input} ${c} > ${output_file}"
     echo $cmd
     eval $cmd
   done
+
 }
 
 

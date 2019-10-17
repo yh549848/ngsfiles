@@ -1,5 +1,7 @@
+/logs/*
 /tmp/*
 .*
+Log.out
 !.gitignore
 !.gitkeep
 *~
