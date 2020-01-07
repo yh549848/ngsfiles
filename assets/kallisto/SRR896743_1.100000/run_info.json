@@ -1,0 +1,13 @@
+{
+	"n_targets": 108610,
+	"n_bootstraps": 100,
+	"n_processed": 99847,
+	"n_pseudoaligned": 84116,
+	"n_unique": 34731,
+	"p_pseudoaligned": 84.2,
+	"p_unique": 34.8,
+	"kallisto_version": "0.44.0",
+	"index_version": 10,
+	"start_time": "Tue Jan  7 17:06:59 2020",
+	"call": "kallisto quant -i tmp/kallisto/gencode.v32.basic.transcripts -o assets/kallisto//SRR896743_1.100000 --pseudobam --genomebam --gtf tmp/gencode.v32.basic.annotation.gtf -t 4 --seed 42 -b 100 assets/FASTQ/SRR896743_1.100000.fastq.gz assets/FASTQ/SRR896743_2.100000.fastq.gz"
+}
