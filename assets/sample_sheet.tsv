@@ -1,0 +1,3 @@
+sample	fastq1	fastq2	group
+MAQCA_0	assets/FASTQ/SRR896663_1.100000.fastq.gz	assets/FASTQ/SRR896663_2.100000.fastq.gz	MAQCA
+MAQCB_0	assets/FASTQ/SRR896743_1.100000.fastq.gz	assets/FASTQ/SRR896743_2.100000.fastq.gz	MAQCB
