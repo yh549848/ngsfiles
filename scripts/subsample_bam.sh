@@ -14,7 +14,6 @@ function subsample () {
     echo $cmd
     eval $cmd
   done
-
 }
 
 

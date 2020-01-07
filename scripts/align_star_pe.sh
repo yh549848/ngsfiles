@@ -22,11 +22,10 @@ if [ ! -e ${output_dir} ]; then
   mkdir -p ${output_dir}
 fi
 
-
-star_index="tmp/GRCh38.primary_assembly.genome"
+star_index="tmp/star/GRCh38.primary_assembly.genome"
 annotation="tmp/gencode.v32.basic.annotation.gtf"
 library_id=""      # Library identifier which will be added to bam header.
-ncpus=8            # Number of cpus available.
+ncpus=4            # Number of cpus available.
 ram_GB=48          # ram memory avaliable for STAR sorting
 
 # Additional options from ENCODE pipeline

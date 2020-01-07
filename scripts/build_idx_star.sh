@@ -15,7 +15,7 @@
 fasta=$1
 gtf=$2
 
-output_dir=tmp
+output_dir=tmp/star
 output_base=$(basename $(basename ${fasta} .fasta) .fa)
 
 mkdir -p ${output_dir}/${output_base}
