@@ -1,0 +1,4 @@
+grch38	GRCh38	homo_sapiens	104
+grcm39	GRCm39	mus_musculus	104
+grcz11	GRCz11	danio_rerio	104
+ce11	WBcel235	caenorhabditis_elegans	104
